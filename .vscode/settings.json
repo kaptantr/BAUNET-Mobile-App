@@ -1,0 +1,25 @@
+{
+  "vetur.validation.template": true,
+  "vetur.format.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+
+  "vetur.experimental.templateInterpolationService": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/Vue.js 3 Cookbook by Heitor Ramon Ribeiro-Packt-9781838826222-EBooksWorld.ir.pdf": true,
+    "**/BACKUP": true,
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  "explorerExclude.backup": null,
+  "java.configuration.updateBuildConfiguration": "interactive"
+}

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.webtorn.baunet" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Baunet App</name>
+    <description>Baunet App</description>
+    <author email="mesut@webtorn.com" href="http://www.webtorn.com">
+        Webtorn IT
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="about:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <allow-navigation href="*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <allow-navigation href="*" />
+        <preference name="MediaPlaybackRequiresUserAction" value="false" />
+        <preference name="AllowInlineMediaPlayback" value="true" />
+    </platform>
+    <platform name="android">
+        <icon density="mdpi" src="res/icons/android/mipmap-mdpi/ic_launcher.png" />
+        <icon density="hdpi" src="res/icons/android/mipmap-hdpi/ic_launcher.png" />
+        <icon density="xhdpi" src="res/icons/android/mipmap-xhdpi/ic_launcher.png" />
+        <icon density="xxhdpi" src="res/icons/android/mipmap-xxhdpi/ic_launcher.png" />
+        <icon density="xxxhdpi" src="res/icons/android/mipmap-xxxhdpi/ic_launcher.png" />
+    </platform>
+    <platform name="ios">
+        <icon height="180" src="res/icons/ios/180.png" width="180" />
+        <icon height="80" src="res/icons/ios/80.png" width="80" />
+        <icon height="120" src="res/icons/ios/120.png" width="120" />
+        <icon height="120" src="res/icons/ios/120.png" width="120" />
+        <icon height="57" src="res/icons/ios/57.png" width="57" />
+        <icon height="58" src="res/icons/ios/58.png" width="58" />
+        <icon height="29" src="res/icons/ios/29.png" width="29" />
+        <icon height="87" src="res/icons/ios/87.png" width="87" />
+        <icon height="114" src="res/icons/ios/114.png" width="114" />
+        <icon height="40" src="res/icons/ios/40.png" width="40" />
+        <icon height="60" src="res/icons/ios/60.png" width="60" />
+        <icon height="1024" src="res/icons/ios/1024.png" width="1024" />
+    </platform>
+</widget>

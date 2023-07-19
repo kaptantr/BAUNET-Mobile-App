@@ -1,0 +1,288 @@
+// app global css in SCSS form
+
+@font-face {
+    font-family: "NeueKabel-Bold";
+    src: url('../assets/NeueKabel-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: "NeueKabel-Medium";
+    src: url('../assets/NeueKabel-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url('../assets/OpenSans-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url('../assets/OpenSans-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: "OpenSans-ExtraBold";
+    src: url('../assets/OpenSans-ExtraBold.woff') format('woff');
+}
+
+.main-slider .q-carousel__control.q-carousel__navigation {
+    right: 1px;
+    bottom: -10px !important;
+}
+
+.main-slider .q-pt-md  {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    margin-top: 80px;
+    background-color: #00000021;
+}
+
+.main-slider .text-subtitle2 {
+    width: 100%;
+    color: white;
+}
+
+
+.son-dakika-chip .material-icons.q-icon {
+    animation-duration: 1s;
+    animation-name: fade-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-bottom: 0px;
+}
+@keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: .7; }
+}
+
+.son-dakika-chip+marquee {
+	color: black;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 13px;
+}
+
+.son-dakika-chip+marquee a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.son-dakika-chip div {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.son-dakika-chip+marquee .son-dakika-baslik {
+    border-left: 1px solid #cf1717;
+}
+
+.son-dakika-chip+marquee .son-dakika-baslik:first-child {
+    border-left: 0;
+}
+
+footer.main-footer {
+    height: 50px;
+}
+
+.q-layout__section--marginal {
+    background-color: #42ada3;
+    color: #fff;
+}
+
+footer.main-footer .q-toolbar {
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+footer.main-footer .q-toolbar div.active {
+    color: #d50000;
+}
+
+footer.main-footer .q-toolbar {
+    color: rgba(0, 0, 0, 0.55);
+    font-family: 'Segoe UI';
+}
+
+footer.main-footer .q-toolbar button.q-btn + p {
+    margin-top:-5px;
+}
+
+.il-secimi {
+    background-color: #ffffff;
+    margin: 5px 0;
+}
+
+.il-secimi.q-bar {
+    margin: 5px 0;
+}
+
+.il-secimi select {
+    background-color: #ffffff;
+    color: #555555;
+    font-size: 12px;
+    border : 0;
+    height: 32px;
+    margin-top: 5px;
+    margin-left: -20px;
+    text-align: center;
+}
+
+.il-secimi.q-bar .q-chip {
+    font-size: 12px;
+    color: #999999;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    border: 0;
+}
+
+.il-secimi.q-bar .q-chip .ellipsis {
+    color: #555555;
+}
+
+.gostergeler .q-bar {
+    height: 38px;
+}
+
+.gostergeler .q-chip {
+    padding: 0;
+}
+
+.gostergeler .q-chip .br-space {
+    margin-top: -10px;
+    display: block;
+}
+
+.gostergeler .q-chip .br-space2 {
+    margin-top: -5px;
+    display: block;
+}
+
+.gostergeler .q-chip .br-space3 {
+    margin-top: -7px;
+    display: block;
+}
+
+.gostergeler .q-chip .title {
+    font-size: 9px;
+    font-weight: bold;
+    color: #444444;
+    margin-left: 5px;
+}
+
+.gostergeler .q-chip .price {
+    font-size: 16px;
+    color: #555555;
+    margin-left: 5px;
+}
+
+.gostergeler .q-chip.up .title,
+.gostergeler .q-chip.down .title {
+    margin-left: -3px;
+}
+
+.gostergeler .q-chip.up .price,
+.gostergeler .q-chip.down .price {
+    margin-left: -5px;
+}
+
+.gostergeler.konum {
+    margin: 10px 0 5px 0;
+}
+
+.haberler {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: space-evenly;
+}
+
+.haberler .col-6 {
+  margin: 5px;
+  padding: 2px;
+  width: 47%;
+}
+
+.haberler .col-12 {
+  margin: 5px;
+  padding: 2px;
+}
+
+.haberler .haber-card .q-card__section .title {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding: 0;
+}
+
+.haberler .haber-card .q-card__section .text {
+    margin-top: -20px;
+}
+
+#usd_kur, #eur_kur, #alt_kur, #btc_kur {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.main-loading {
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.q-tab .q-tab__label {
+    font-size: 13px;
+    line-height: 1.715em;
+    font-family: OpenSans-Regular;
+}
+
+.details img {
+    width: 100%;
+}
+
+
+
+
+
+.mediabox-img.ls-blur-up-is-loading,
+.mediabox-img.lazyload:not([src]) {
+  visibility: hidden;
+}
+
+.mediabox {
+  position: relative;
+  display: block;
+  height: 100px;
+  width: 100%;
+  padding-bottom: 66.6667%;
+}
+
+.ls-blur-up-img,
+.mediabox-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-family: "blur-up: always", "object-fit: cover";
+  object-fit: cover;
+}
+
+.ls-blur-up-img {
+  filter: blur(10px);
+  opacity: 1;
+  transition: opacity 1000ms, filter 1500ms;
+  -webkit-filter: blur(10px);
+}
+
+.ls-blur-up-img.ls-inview.ls-original-loaded {
+  opacity: 0;
+  filter: blur(5px);
+  z-index: -1;
+}
